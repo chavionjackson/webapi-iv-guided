@@ -5,7 +5,7 @@ const Shoutouts = require('../data/shoutouts-model.js');
 
 const server = express();
 
-server.use(helmet());
+server.use(helmet())
 server.use(express.json());
 
 server.get('/', (req, res) => {
